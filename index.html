@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+</head>
+<BODY >
+  
+  <div id="qw"> <div id="wh">
+        <div id="res">0</div>
+        <div id="mid">
+            <div id="fl">
+                <div id="sev" onclick="get_input('7')">7</div>
+                <div id="eig"onclick="get_input('8')">8</div>
+                <div id="nin"onclick="get_input('9')">9</div>
+               <div id="div"onclick="get_input('/')">/</div>
+            </div>
+            <div id="sl">
+                <div id="for"onclick="get_input('4')">4</div>
+                <div id="fiv"onclick="get_input('5')">5</div>
+                <div id="sx"onclick="get_input('6')">6</div>
+                <div id="as"onclick="get_input('*')">*</div>
+            </div>
+            <div id="tl">
+                <div id="on"onclick="get_input('1')">1</div>
+                <div id="to"onclick="get_input('2')">2</div>
+                <div id="thr"onclick="get_input('3')">3</div>
+                <div id="min"onclick="get_input('-')">-</div>
+            </div>
+          <div id="fol">
+            <div id="ret"onclick=backSpace()>&#8592;</div>
+                <div id="zer"onclick="get_input('0')">0</div>
+                <div id="dot"onclick="get_input('.')">.</div>
+                <div id="plus"onclick="get_input('+')">+</div>
+            </div>
+          <div id="fifl">
+            <div id="ce"onclick=clr()>clear</div>
+            <div id="equal"onclick="submit()">=</div>
+          </div>
+        </div>
+    </div>
+  </div>
+<script src="./app.js"></script>
+</BODY>
+</html>

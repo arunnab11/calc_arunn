@@ -1,0 +1,222 @@
+*{
+ background-color: rgb(175, 40, 40);
+}
+#qw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#wh{
+
+    border: 3px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:20px ;
+    margin-bottom: 10px;
+    width:400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(32, 26, 26);
+   justify-content:space-between;
+   border-radius: 30px;
+   box-shadow: 10px 10px 10px 10px;
+}
+#res{
+    border: 2px solid;
+    height : 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:20px ;
+    margin-bottom: 10px;
+    background-color: rgb(44, 223, 205);
+    border-radius: 10px;
+     font-size: 42px;
+    border:1px solid;
+    height :50px;
+display: flex;
+align-items :end;
+flex-direction:column-reverse;
+
+}
+
+#mid{
+    border: 1px solid;
+    height : 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:0px ;
+    margin-bottom: 30px;
+    background-color: rgb(52, 16, 228);
+    border-radius: 40px 20px ;
+    /* box-shadow: 10px 10px 10px 10px; */
+
+}
+/* #mid:hover{
+
+} */
+#fl,#sl,#tl,#fol,#fifl{
+    /* border: 1px solid; */
+    height: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:10px ;
+    margin-bottom: 30px;
+    background-color: rgb(52, 16, 228);
+        display: flex;
+    justify-content:center;
+    justify-content: space-evenly;
+
+
+}
+
+#sev,#eig,#nin,#for,#fiv,#sx,#on,#to,#thr,#ret,#zer,#dot{
+    border: 1px solid;
+    margin-left:0px;
+    margin-right: 2px;
+    margin-top:1px ;
+    margin-bottom: 1px;
+     border-radius: 6px 30px 10px 10px;  
+    border: 1px solid;
+    width: 50px;
+    height : 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(253, 253, 253, 0.9);
+    box-shadow: 5px 5px 5px 5px;
+}
+#sev:hover{
+    background-color: black;
+    color: aliceblue;
+}
+#eig:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#nin:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#fiv:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#for:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#sx:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#on:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#to:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#thr:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#ret:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#zer:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+#dot:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+
+/* #eig{
+    border: 1px solid;
+    width: 50px;
+    height : 50px;
+}
+#nin{
+    border: 1px solid;
+    width: 50px;
+    height : 50px;
+} */
+#div,#as,#min,#plus{
+    border: 1px solid;
+    width: 90px;
+    height : 50px;
+    margin-left: 50px;
+    border-radius: 40px;
+    background-color: rgb(255, 111, 9);
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px;
+}
+#div:hover{
+    background-color: rgb(77, 63, 3);
+    color: rgb(244, 247, 249);
+
+}
+#as:hover{
+    background-color: rgb(77, 63, 3);
+    color: rgb(244, 247, 249);
+
+}
+#min:hover{
+    background-color: rgb(77, 63, 3);
+    color: rgb(244, 247, 249);
+
+}
+#plus:hover{
+    background-color: rgb(77, 63, 3);
+    color: rgb(244, 247, 249);
+
+}
+
+#ce,#equal{
+    border: 1px solid;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 56px;
+   color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 5px;
+
+}
+#ce:hover{
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+
+}
+#equal:hover{
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+
+}
+   
